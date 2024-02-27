@@ -1,0 +1,42 @@
+body {
+    background: #c1efde;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #009d63;
+  }
+  
+  .profile-button {
+    background: #009d63;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .profile-button:hover {
+    background: #028756;
+  }
+  
+  .profile-button:focus {
+    background: #028756;
+    box-shadow: none;
+  }
+  
+  .profile-button:active {
+    background: #028756;
+    box-shadow: none;
+  }
+  
+  .back {
+    text-decoration: none;
+    color: black;
+  }
+
+  .back:hover {
+    color: #009d63 !important;
+    cursor: pointer !important;
+  }
+
+  .label-text {
+    color: #009d63 !important;
+  }
