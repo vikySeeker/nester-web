@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Task Lists:</h1>
+    {{if .Err_msg}}
+    <p>No task found...</p>
+    {{else}}
+    {{range .List}}
+        <p>{{.Taskid}}</p>
+        <p>{{.Uid}}</p>
+        <p>{{.Taskname}}</p>
+        <p>{{.Created_at}}</p>
+        <p>{{.Completed_at}}</p>
+        <p>{{.Task_IP}}</p>
+        <p>{{.Task_Domain}}</p>
+    {{end}}
+    {{end}}
+</body>
+</html>

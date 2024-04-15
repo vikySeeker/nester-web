@@ -25,6 +25,11 @@
     border-radius: 100%;
   }
   
+/* .btn-main {
+  background-color: var(--main-bg-color) !important;
+  border-color: var(--main-bg-color) !important;
+} */
+
   #wrapper {
     overflow-x: hidden;
     background-color: #c1efde;
